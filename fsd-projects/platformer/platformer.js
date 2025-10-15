@@ -41,12 +41,14 @@ $(function () {  // initialize canvas and context when able to
     // TODO 3 - Create Collectables
 createCollectable('steve', 150, 130);
 createCollectable('max', 500, 265);
-createCOllectable('kennedi', 400, 630);
-
+//createCollectable('kennedi', 400, 630);
+createCollectable('kennedi', 400, 630);
 
    
     // TODO 4 - Create Cannons
-
+createCannon('top', y , 150);
+createCannon('bottom', x, 250);
+createCannon('left', x, 350);
 
    
    
